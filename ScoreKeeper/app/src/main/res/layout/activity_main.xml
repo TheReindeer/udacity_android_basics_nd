@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.scorekeeper.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:padding="4dp"
+                android:text="@string/player_one_name"
+                android:textColor="#424242"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/score_player_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_horizontal"
+                android:padding="4dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="56sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="@string/frames_score"
+                    android:textSize="16sp"
+                    android:textColor="#424242"/>
+
+                <TextView
+                    android:id="@+id/frames_player_one"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textSize="24sp"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+
+                <Button
+                    android:id="@+id/red_player_one"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/button_shape_red"
+                    android:text="+1"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addOnePointForPlayerOne"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="@string/remaining_reds"
+                    android:textSize="16sp"
+                    android:textColor="#424242"/>
+
+                <TextView
+                    android:id="@+id/red_balls_left_player_one"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="15"
+                    android:textSize="16sp"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+
+                <Button
+                    android:id="@+id/yellow_player_one"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/button_shape_yellow"
+                    android:text="+2"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addTwoPointsForPlayerOne"/>
+
+                <Button
+                    android:id="@+id/green_player_one"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/button_shape_green"
+                    android:text="+3"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addThreePointsForPlayerOne"/>
+
+                <Button
+                    android:id="@+id/brown_player_one"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/button_shape_brown"
+                    android:text="+4"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addFourPointsForPlayerOne"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+
+                <Button
+                    android:id="@+id/blue_player_one"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/button_shape_blue"
+                    android:text="+5"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addFivePointsForPlayerOne"/>
+
+                <Button
+                    android:id="@+id/pink_player_one"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/button_shape_pink"
+                    android:text="+6"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addSixPointsForPlayerOne"/>
+
+                <Button
+                    android:id="@+id/black_player_one"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/button_shape_black"
+                    android:text="+7"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addSevenPointsForPlayerOne"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/penalty_player_one"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/button_shape_penalty"
+                    android:text="FOUL +4"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addFourPointsForPlayerTwo"/>
+
+                <Button
+                    android:id="@+id/add_frame_player_one"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/button_shape_frame"
+                    android:text="FRAME +1"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addFrameForPlayerOne"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:padding="4dp"
+                android:text="@string/player_two_name"
+                android:textColor="#424242"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/score_player_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_horizontal"
+                android:padding="4dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="56sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="@string/frames_score"
+                    android:textSize="16sp"
+                    android:textColor="#424242"/>
+
+                <TextView
+                    android:id="@+id/frames_player_two"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textSize="24sp"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+
+                <Button
+                    android:id="@+id/red_player_two"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/button_shape_red"
+                    android:text="+1"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addOnePointForPlayerTwo"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="@string/remaining_reds"
+                    android:textSize="16sp"
+                    android:textColor="#424242"/>
+
+                <TextView
+                    android:id="@+id/red_balls_left_player_two"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="15"
+                    android:textSize="16sp"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+
+                <Button
+                    android:id="@+id/yellow_player_two"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/button_shape_yellow"
+                    android:text="+2"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addTwoPointsForPlayerTwo"/>
+
+                <Button
+                    android:id="@+id/green_player_two"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/button_shape_green"
+                    android:text="+3"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addThreePointsForPlayerTwo"/>
+
+                <Button
+                    android:id="@+id/brown_player_two"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/button_shape_brown"
+                    android:text="+4"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addFourPointsForPlayerTwo"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+
+                <Button
+                    android:id="@+id/blue_player_two"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/button_shape_blue"
+                    android:text="+5"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addFivePointsForPlayerTwo"/>
+
+                <Button
+                    android:id="@+id/pink_player_two"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/button_shape_pink"
+                    android:text="+6"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addSixPointsForPlayerTwo"/>
+
+                <Button
+                    android:id="@+id/black_player_two"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/button_shape_black"
+                    android:text="+7"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addSevenPointsForPlayerTwo"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/penalty_player_two"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/button_shape_penalty"
+                    android:text="FOUL +4"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addFourPointsForPlayerOne"/>
+
+                <Button
+                    android:id="@+id/add_frame_player_two"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/button_shape_frame"
+                    android:text="FRAME +1"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="addFrameForPlayerTwo"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reset_scores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button_shape_reset"
+        android:text="RESET"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:onClick="resetScores"/>
+
+</LinearLayout>
