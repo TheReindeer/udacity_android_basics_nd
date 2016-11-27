@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_9fa833510a173a349f37dea8a2eaf35dd86c0a26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_67f99e970807d7582f55e7fd7f512c5f0b1951d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_c4a520f8431ef0f9797eb88f6d369f7cf4046554.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_23734d69d05ec642e6e5cff27dab5e1f2910e030.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogus\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_0b5c914c8bef1cf9e7bbb5ddb3f3e131d74ec3aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_d7ba6ce84093127869c359c8818ff3e9fb7b1c2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_64e99546aec78a2022bcddc4daea992a54933ff4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f1052d6bac206b80a2c3806c0fdff28fed378d7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_ad90402fefa136153395f68a252f6d9570fae95e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_8490fce392d11be0ecb5403762915a8068f03c24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5d039e671692798a78c4556e93d08bd78000964e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_9f1f1d4efa741afc2ddf625d6c1cf38c561161ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_dbb0c21f993f208c10168f0b2f075dbb7ca0ce3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5ba32d24f9b0c7c22b94cb8392d6c0167813cbd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\rogus\Desktop\GoogleCourses\8.NewsApp\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_567258e7119368015eec8ea6b4e10118c4b33e19.jar" />
+    </item>
+
+</items>
