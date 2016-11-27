@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+
+    <string name="activity_main_all_text">ALL SONGS\n\n\t
+        The main activity of the application, and of course the launching screen.\n\t
+        This Activity will contain the list (TextViews) of all songs in a vertical LinearLayout, wrapped in a ScrollView.\n\t
+        Clicking a song (TextView) will open the NowPlayingActivity.\n\t
+        For demonstration I had put the listener on this TextView in order to open the NowPlayingActivity.\n\t
+        In the upper right corner there will be a search widget (SearchView, not added because I suppose I am allowed only with TextViews and Buttons), which will allow the user to search through all the songs.\n\t
+        The buttons at the bottom of the screen allows the user to navigate between activities (as suggested by buttons text).
+    </string>
+
+    <string name="activity_genres_text">GENRES\n\n\t
+        This acitivty will have a parent vertical LinearLayout with multiple children verticals LinearLayout.\n\t
+        Each children will contain 2 TextViews: one with the genre name (written with a draker and bigger font) and one with number of songs in the genre (written with smaller and lighter font, below the previous one).\n\t
+        Clicking on the children LinearLayouts will open the GenreSelectedActivity.\n\t
+        For demonstration I had put the listener on this TextView in order to open the GenreSelectedActivity.\n\t
+        In the upper right corner there will be a SearchView allowing to search by the genre name.\n\t
+        The buttons at the bottom of the screen allows the user to navigate between activities (as suggested by buttons text).
+    </string>
+
+    <string name="activity_artists_text">ARTISTS\n\n\t
+        This acitivty will have a parent vertical LinearLayout with multiple children verticals LinearLayout.\n\t
+        Each children will contain 2 TextViews: one with the artists name (written with a draker and bigger font) and one with number of songs for that artist (written with smaller and lighter font, below the previous one).\n\t
+        Clicking on the children LinearLayouts will open the ArtistSelectedActivity.\n\t
+        For demonstration I had put the listener on this TextView in order to open the ArtistSelectedActivity.\n\t
+        In the upper right corner there will be a SearchView allowing to search by the artist name.
+        The buttons at the bottom of the screen allows the user to navigate between activities (as suggested by buttons text).
+    </string>
+
+    <string name="activity_genre_selected_text">GENRE SELECTED\n\n\t
+        This Activity will contain the list (TextViews) of all songs of theselected genre in a vertical LinearLayout, wrapped in a ScrollView.\n\t
+        Clicking a song (TextView) will open the NowPlayingActivity.\n\t
+        For demonstration I had put the listener on this TextView in order to open the NowPlayingActivity.\n\t
+        In the upper right corner there will be a SearchView allowing to search by the song name (only by this genre).
+    </string>
+    
+    <string name="activity_artist_selected_text">ARTIST SELECTED\n\n\t
+        This Activity will contain the list (TextViews) of all songs by the selected artist in a vertical LinearLayout, wrapped in a ScrollView.\n\t
+        Clicking a song (TextView) will open the NowPlayingActivity.\n\t
+        For demonstration I had put the listener on this TextView in order to open the NowPlayingActivity.\n\t
+        In the upper right corner there will be a SearchView allowing to search by the song name (only by this artist).
+    </string>
+
+    <string name="now_playing_text">NOW PLAYING\n\n\t
+        This Activity will contain a TextView with the name of song - name of artist.\n\t
+        The Activity will have 3 buttons (previous, play/pause, next) centered both vertical and horizontal.\n\t
+        In the upper right corner there will be a SearchView allowing to search through all the songs.
+    </string>
+
+    <string name="button_all_songs">All songs</string>
+    <string name="button_genre_songs">Genres</string>
+    <string name="button_artists_songs">Artists</string>
+</resources>
