@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_4679c4594ac30d5b209966e202616225a6cdb5b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_205b8d5d54985d947cab36ed7b115de073ad5130.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_3b05cfc23acd5679ea62d59be3ff0810097dd744.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_dd8b9aa28748c6bae0713fc19a5b2bc99517f6f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\john\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_06b7c6ec74cdf96af76df852acd2e148f6531075.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_7c8979f9048e23e045771bc6775c04fc21793cc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_8e22e4964c07d46ffce3be120730f2eeb896178e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_1e0f386dd0ef1cb83a5d20599e4422ae4325b959.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_b72aec873b19636955bf3f0d94f90e76e4c622a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_1f34dd724141524414bbc386ba1eca4e44f31168.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_9ffeb9e991d2f4eb740f88e4113365eb6d28660e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="89c81462269a120627a45a9a6a631e0ff336804c">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_5d48ba97abc6cb3e569e70ad59f61f1e8a2cb52a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_350c76dec46fd00e2db07fbbc4d19947f9b634f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d6d4c86bbbc55929f262dde09fda9e3ce0d92fb9">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\instant-run_62bf898f36b87be7a7edea6d46311a7f10befd7f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_c66f383f167135ff23dab20068f725020f57ecf4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_7acb634009adef85836e5d0dbd354e905066671e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="E:\GoogleCourses\AndroidBasicsNanodegree\7.BookListingApp\BookListing\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_70d00158b5693ae9aefa40a42a9a9f38d16f05b2.jar" />
+    </item>
+
+</items>
