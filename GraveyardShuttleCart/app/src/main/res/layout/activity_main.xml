@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.graveyardshuttlecart.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:scaleType="fitStart"
+        android:background="#E0E0E0" />
+
+    <TextView
+        android:id="@+id/tvContactInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:text="Contact information:"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="250dp"
+        android:layout_marginLeft="18dp"/>
+
+    <TextView
+        android:id="@+id/tvAdress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: Bucharest, Ghencea Street"
+        android:layout_alignTop="@id/tvContactInfo"
+        android:layout_alignLeft="@id/tvContactInfo"
+        android:layout_alignStart="@id/tvContactInfo"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="24dp"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: graveyardshuttlecart@gmail.com"
+        android:layout_alignTop="@id/tvAdress"
+        android:layout_alignLeft="@id/tvAdress"
+        android:layout_alignStart="@id/tvAdress"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone number: 07485468710"
+        android:layout_alignTop="@id/tvEmail"
+        android:layout_alignLeft="@id/tvEmail"
+        android:layout_alignStart="@id/tvEmail"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schedule: Feel free to visit us whenever..."
+        android:layout_alignTop="@id/tvPhone"
+        android:layout_alignLeft="@id/tvPhone"
+        android:layout_alignStart="@id/tvPhone"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:text="Buy your ticket"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:textStyle="italic"
+        android:background="#9E9E9E"
+        style="@android:style/Widget.Holo.Button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Life's tough, but passes :)"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:textStyle="italic"/>
+</RelativeLayout>
