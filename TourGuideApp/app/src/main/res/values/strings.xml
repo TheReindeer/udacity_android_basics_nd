@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Bucharest</string>
+
+    <!--Names for fragments] -->
+    <string name="category_attractions">Attractions</string>
+    <string name="category_hotels">Hotels</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_food">Food</string>
+
+    <!-- Names of the attractions-->
+    <string name="attr_antipa">Antipa Museum</string>
+    <string name="attr_herastrau">Herastrau Park</string>
+    <string name="attr_ior">IOR Park</string>
+    <string name="attr_center">Historical Center</string>
+    <string name="attr_revolution_square">Revolution Square</string>
+    <string name="attr_triumph_arc">Triumph Arch</string>
+    <string name="attr_university_square">University Square</string>
+    <string name="attr_victory_square">Victory Square</string>
+    <string name="attr_village_museum">The Village Museum</string>
+    <string name="attr_people_house">The Peoples House</string>
+
+    <!-- Descriptions of the attractions -->
+    <string name="attr_antipa_descr">One of the oldest research institutions in the field of biodiversity.</string>
+    <string name="attr_herastrau_descr">Located in the north of Bucharest, it covers an area of aproximately 1 sq. kilometer.</string>
+    <string name="attr_ior_descr">A very well preserved park, smartly maintained and constantly developed.</string>
+    <string name="attr_center_descr">Much of the old Bucharest that was spared from demolition.</string>
+    <string name="attr_revolution_descr">Its name commemorates the Romanian Revolution against Ceausescu’s regime in 1989.</string>
+    <string name="attr_triumph_descr">Smaller than its Paris elder brother, it is however almost equally impressive.</string>
+    <string name="attr_university_descr">The place of some of the most violent episodes of the 1989 revolution.</string>
+    <string name="attr_victory_descr">Victory Square is where the seat of the Romanian Government is located.</string>-
+    <string name="attr_village_descr">An open-air ethnographic museum located in the Herastrau Park.</string>
+    <string name="attr_people_descr">A building of epic proportions in the heart of Bucharest.</string>
+
+    <!-- Names of the hotels -->
+    <string name="hotel_intercontinental">Intercontinental</string>
+    <string name="hotel_christina">Christina Hotel</string>
+    <string name="hotel_epoque">Epoque Hotel</string>
+    <string name="hotel_cismigiu">Cismigiu Hotel</string>
+    <string name="hotel_rembrandt">Rembrandt Hotel</string>
+    <string name="hotel_jw_marriott">JW Marriott</string>
+    <string name="hotel_mercure">Mercure Bucharest City Center</string>
+    <string name="hotel_capitol">Capitol Hotel</string>
+    <string name="hotel_grand_continental">Grand Hotel Continental</string>
+    <string name="hotel_athenee_palace_hilton">Athenee Palace Hilton</string>
+
+    <!-- Descriptions of the hotels -->
+    <string name="hotel_intercontinental_descr">4 Balcescu Nicolae Bd.\n021.310.2020</string>
+    <string name="hotel_christina_descr">13 Ion Slatineanu Str.\n031.630.1479</string>
+    <string name="hotel_epoque_descr">17C Aurora Intr.\n021.312.3232</string>
+    <string name="hotel_cismigiu_descr">38 Regina Elisabeta Bd.\n031.403.0500</string>
+    <string name="hotel_rembrandt_descr">11 Smardan Str.\n021.313.9315</string>
+    <string name="hotel_jw_marriott_descr">13 Septembrie Cal.\n021.403.0000</string>
+    <string name="hotel_mercure_descr">15-17 George Enescu Str.\n0372.426.000</string>
+    <string name="hotel_capitol_descr">29 Calea Victoriei\n031.630.0737</string>
+    <string name="hotel_grand_continental_decr">56 Calea Victoriei\n0372.010.300</string>
+    <string name="hotel_athenee_palace_hilton_descr">1-3 Episcopiei Str.\n021.303.3777</string>
+
+    <!-- Names of the restaurants -->
+    <string name="rest_zahana">Zahana 33</string>
+    <string name="rest_zexe">Zexe</string>
+    <string name="rest_angus">Red Angus Steakhouse</string>
+    <string name="rest_beef">The Beef Club</string>
+    <string name="rest_amvrosia">Amvrosia</string>
+    <string name="rest_argentine">Argentine</string>
+    <string name="rest_veranda">Veranda Casa Frumoasa</string>
+    <string name="rest_stejarii">Stejarii Pool Club</string>
+    <string name="rest_mandarin">Mandarin</string>
+    <string name="rest_doina">Casa Doina</string>
+
+    <!-- Descriptions of the restaurants -->
+    <string name="rest_zahana_descr">162 Splaiul Unirii (Odeon Palace)\n0751.236.955</string>
+    <string name="rest_zexe_descr">80 Iocoanei Str.\n0730.232.424</string>
+    <string name="rest_angus_descr">56 Franceza Str.\n0756.600.000</string>
+    <string name="rest_beef_descr">30A Emil Pangratti Str.\n0788.904.244</string>
+    <string name="rest_amvrosia_descr">11 Bisericii Str.\n0722.227.465</string>
+    <string name="rest_argentine_descr">1 Nordului Sos.\n0720.100.400</string>
+    <string name="rest_veranda_descr">5 Clopotarii Vechi Str.\n0733.735.932</string>
+    <string name="rest_stejarii_descr">14A Jandarmeriei Str.\n0374.884.000</string>
+    <string name="rest_mandarin_descr">103bis Erou Iancu Nicolae\n021.206.8066</string>
+    <string name="rest_doina_descr">4 Kiselff Bd.\n021.222.6717</string>
+
+    <!-- Names of the traditional foods -->
+    <string name="food_ciorba_burta">Ciorba de burta</string>
+    <string name="food_ciorba_fasole">Ciorba de fasole</string>
+    <string name="food_sarmale">Sarmale</string>
+    <string name="food_bulz">Bulz</string>
+    <string name="food_carnati_afumati">Carnati afumati</string>
+    <string name="food_jumari">Jumari</string>
+    <string name="food_mici">Mici</string>
+    <string name="food_sunca_afumata">Sunca afumata</string>
+    <string name="food_porumb_copt">Porumb copt</string>
+    <string name="food_cozonac">Cozonac</string>
+
+    <!-- Descriptions of the traditional foods -->
+    <string name="food_ciorba_burta_descr">Besides tripe,the soup contains carrots, turnip cabbage, celery roots and beef hocks.</string>
+    <string name="food_ciorba_fasole_descr">Bean soup is one of the core foods in Romanian cuisine.</string>
+    <string name="food_sarmale_descr">Cabbage rolls are made of ground meat mixed with rice and other ingredients and rolled into cabbage leaves.</string>
+    <string name="food_bulz_descr">Sheep cheese cooked inside a piece of "mamaliga" (boiled corn meal).</string>
+    <string name="food_carnati_afumati_descr">To obtain smoked sausages, ground meat is pressed into pieces of animal intestine, and then placed over smoke.i</string>
+    <string name="food_jumari_descr">Obtained by frying pieces of bacon, has a high cholesterol content.</string>
+    <string name="food_mici_descr">Meaning “little ones” are a kind of grilled sausages that usually come in a cylindrical shape.</string>
+    <string name="food_sunca_afumata_descr">Smoked bacon is made from the fat found either in the abdominal area or on the back of a pig.</string>
+    <string name="food_porumb_copt_descr">Corn on cobs is a delicacy fondly remembered from our childhood summers spent with our grandparents in the country.</string>
+    <string name="food_cozonac_descr">To bake a truly delicious sweetbread always represents a challenge.</string>
+</resources>
