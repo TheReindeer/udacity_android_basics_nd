@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Quizz App</string>
+
+    <string name="business_name">Enter your business name...</string>
+    <string name="city_name">Enter your business location (city)...</string>
+
+    <string name="type_of_business">1. What is the type of your business?</string>
+    <string name="radio_button_restaurant">Restaurant</string>
+    <string name="radio_button_pub">Pub</string>
+    <string name="radio_button_club">Club</string>
+
+    <string name="area_square_metters">2. What floor area has the location (square meters)?</string>
+    <string name="radio_button_up_to_50">0-50</string>
+    <string name="radio_button_up_to_100">50-100</string>
+    <string name="radio_button_up_to_150">100-150</string>
+    <string name="radio_button_up_to_200">150-200</string>
+
+    <string name="number_of_persons">3. What will be the maximum number of persons allowed in the location?</string>
+    <string name="radio_button_persons_up_to_200">0-200</string>
+    <string name="radio_button_persons_up_to_400">200-400</string>
+    <string name="radio_button_persons_up_to_600">400-600</string>
+    <string name="radio_button_persons_up_to_800">600-800</string>
+
+    <string name="fire_protection_system">4. Which of the next statements applies to your bussines?</string>
+    <string name="checkbox_fire_protection">I have a fire protection system installed.</string>
+    <string name="checkbox_fire_protection_examination">The fire protection system has been verified by the empowered local authorities.</string>
+
+    <string name="number_of_emergency_exits_question">5. What is the minimum number of emergency exits needed according to the number of maximum persons selected?</string>
+    <string name="number_of_emergency_exits">Enter the number of emergency exits...</string>
+
+    <string name="button_submit">Submit</string>
+    <string name="button_send_result">Send result</string>
+</resources>

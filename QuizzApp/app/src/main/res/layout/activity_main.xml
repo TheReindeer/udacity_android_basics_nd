@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F3E5F5"
+    tools:context="com.example.android.quizzapp.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        style="@style/LinearLayoutLevelOneStyle">
+
+        <EditText
+            android:id="@+id/etBusinessName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/EditTextStyle"
+            android:inputType="text"
+            android:hint="@string/business_name"/>
+
+        <EditText
+            android:id="@+id/etBusinessLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/EditTextStyle"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:hint="@string/city_name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
+            android:text="@string/type_of_business"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rbTypeRestaurant"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_restaurant"/>
+            <RadioButton
+                android:id="@+id/rbTypePub"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_pub"/>
+            <RadioButton
+                android:id="@+id/rbTypeClub"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_club"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
+            android:text="@string/area_square_metters"
+            android:id="@+id/textView" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbFloorArea50"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_up_to_50"/>
+
+            <RadioButton
+                android:id="@+id/rbFloorArea100"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_up_to_100"/>
+            <RadioButton
+                android:id="@+id/rbFloorArea150"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_up_to_150"/>
+            <RadioButton
+                android:id="@+id/rbFloorArea200"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_up_to_200"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
+            android:text="@string/number_of_persons"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rbNumberPersons200"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_persons_up_to_200"/>
+            <RadioButton
+                android:id="@+id/rbNumberPersons400"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_persons_up_to_400"/>
+
+            <RadioButton
+                android:id="@+id/rbNumberPersons600"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_persons_up_to_600"/>
+            <RadioButton
+                android:id="@+id/rbNumberPersons800"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_persons_up_to_800"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
+            android:text="@string/fire_protection_system"/>
+
+        <CheckBox
+            android:id="@+id/cbIsFireProtected"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CheckboxStyle"
+            android:text="@string/checkbox_fire_protection"/>
+
+        <CheckBox
+            android:id="@+id/cbIsFireVerified"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CheckboxStyle"
+            android:text="@string/checkbox_fire_protection_examination"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
+            android:text="@string/number_of_emergency_exits_question"/>
+
+        <EditText
+            android:id="@+id/etEmergencyExitNumbers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/EditTextStyle"
+            android:inputType="number"
+            android:imeOptions="actionDone"
+            android:hint="@string/number_of_emergency_exits"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/ButtonStyle"
+                android:text="@string/button_submit"/>
+            <Button
+                android:id="@+id/btnSendResult"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/ButtonStyle"
+                android:text="@string/button_send_result"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
